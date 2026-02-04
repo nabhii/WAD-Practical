@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MobileStore Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-circle">M</span>
+                <span><b>MOBILESTORE</b></span>   
+            </div>
+
+            <nav>
+                <a class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+                <a><i class="fa-regular fa-chart-bar"></i> Sales Report</a>
+                <a><i class="fa-solid fa-mobile"></i> Phones</a>
+                <a><i class="fa-solid fa-warehouse"></i> Inventory</a>
+                <a><i class="fa-solid fa-bag-shopping"></i> Orders</a>
+                <a><i class="fa-solid fa-users"></i> Customers</a>
+                <a><i class="fa-solid fa-gear"></i> Settings</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <header class="topbar">
+                <h2>Overview</h2>
+                <div class="top-actions">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-regular fa-calendar"></i>
+                </div>
+            </header>
+
+            <section class="stats">
+                <div class="card">
+                    <p>Weekly Revenue</p>
+                    <h3>₹8,75,240</h3>
+                    <span class="up">+19%</span>
+                </div>
+                <div class="card">
+                    <p>Units Sold</p>
+                    <h3>156</h3>
+                    <span class="up">+22%</span>
+                </div>
+                <div class="card">
+                    <p>Customers</p>
+                    <h3>2,180</h3>
+                    <span class="up">+18%</span>
+                </div>
+                <div class="card">
+                    <p>Phone Models</p>
+                    <h3>24</h3>
+                    <span class="up">+3%</span>
+                </div>
+            </section>
+
+            <section class="analytics">
+                <div class="chart-card">
+                    <h4>Weekly Sales Trend</h4>
+                    <div class="chart-area"></div>
+                </div>
+
+                <div class="target-card">
+                    <h4>Sales Target</h4>
+                    <div class="target-info">
+                        <p>Daily Target</p>
+                        <h3>₹1,25,000</h3>
+                        <p>Monthly Target</p>
+                        <h3>₹38,50,000</h3>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="products">
+                <h4>Best Selling Phones</h4>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="15Pro.webp" alt="iPhone 15 Pro">
+                        <p>iPhone 15 Pro</p>
+                        <p>₹1,39,999</p>
+                    </div>
+                    <div class="product">
+                        <img src="S.webp" alt="Samsung Galaxy S24">
+                        <p>Samsung Galaxy S24</p>
+                        <p>₹79,999</p>
+                    </div>
+                    <div class="product">
+                        <img src="onePlus12.webp" alt="OnePlus 12">
+                        <p>OnePlus 12</p>
+                        <p>₹64,999</p>
+                    </div>
+                    <div class="product">
+                        <img src="pixel.jpg" alt="Pixel 8 Pro">
+                        <p>Pixel 8 Pro</p>
+                        <p>₹84,999</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
